@@ -1,0 +1,79 @@
+<?php
+$pageTitle = 'Daliya Ayurvedics | Traditional Ayurvedic Clinic';
+$activePage = 'home';
+include __DIR__ . '/includes/header.php';
+?>
+
+<section class="hero section-pad">
+    <div class="container hero-grid">
+        <div class="hero-copy">
+            <span class="eyebrow">Traditional care • Modern comfort</span>
+            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and physiotherapy.</h1>
+            <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="contact.php">Book an appointment</a>
+                <a class="btn btn-secondary" href="specialities.php">Explore treatments</a>
+            </div>
+        </div>
+        <div class="hero-card">
+            <h2>Complete clinic support</h2>
+            <ul>
+                <li>Bone setting by Hanshi Ajayakumar Nair</li>
+                <li>Male and female physiotherapy assistance</li>
+                <li>Certified Ayurvedic doctor consultation</li>
+                <li>Personalised wellness and recovery plans</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section-pad">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">Why choose us</span>
+            <h2>Patient-first Ayurvedic care for every stage of recovery.</h2>
+        </div>
+        <div class="card-grid four">
+            <article class="info-card"><h3>Experienced team</h3><p>Our clinic combines traditional bone setting knowledge, physiotherapy support and certified Ayurvedic medical guidance.</p></article>
+            <article class="info-card"><h3>Clear explanations</h3><p>Patients and families receive simple details about conditions, treatment choices, expected care and follow-up needs.</p></article>
+            <article class="info-card"><h3>Natural approach</h3><p>We focus on gentle therapies, Ayurvedic formulations, lifestyle advice and rehabilitation to support long-term wellbeing.</p></article>
+            <article class="info-card"><h3>Comfortable visits</h3><p>Separate staff support, appointment guidance and friendly communication make every visit easier for all age groups.</p></article>
+        </div>
+    </div>
+</section>
+
+<section class="section-pad soft-bg">
+    <div class="container split-grid">
+        <div>
+            <span class="eyebrow">Why bone setting therapy</span>
+            <h2>A traditional method focused on alignment, mobility and pain relief.</h2>
+            <p>Bone setting therapy is a traditional manual practice used to support musculoskeletal concerns such as sprains, joint stiffness, minor dislocations, posture-related discomfort and movement limitations. At Daliya Ayurvedics, bone setting is offered with careful assessment and clear guidance.</p>
+        </div>
+        <div class="highlight-box">
+            <h3>Good for supportive care in</h3>
+            <ul class="check-list">
+                <li>Joint and muscle pain management</li>
+                <li>Sprains and strain recovery support</li>
+                <li>Posture and movement correction guidance</li>
+                <li>Rehabilitation along with physiotherapy</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section-pad">
+    <div class="container split-grid reverse">
+        <div class="highlight-box leaf">
+            <h3>Uses of Ayurvedics</h3>
+            <p>Ayurveda supports preventive health, digestion, stress balance, pain management, immunity, skin care, women’s wellness and lifestyle correction through personalised plans.</p>
+        </div>
+        <div>
+            <span class="eyebrow">Why prefer Ayurveda</span>
+            <h2>Care that looks at the root cause, not only the symptom.</h2>
+            <p>Ayurveda considers body constitution, food habits, sleep, work routine and emotional wellbeing before suggesting care. Many patients prefer Ayurvedic care because it is holistic, uses natural preparations and encourages sustainable lifestyle changes alongside clinical advice.</p>
+            <a class="text-link" href="specialities.php">View our specialities →</a>
+        </div>
+    </div>
+</section>
+
+<?php include __DIR__ . '/includes/footer.php'; ?>
