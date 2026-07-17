@@ -30,7 +30,7 @@ $navItems = [
                 <a class="<?= $activePage === $key ? 'active' : ''; ?>" href="<?= $item['url']; ?>"><?= $item['label']; ?></a>
             <?php endforeach; ?>
         </nav>
-        <a class="nav-cta" href="contact.php">Appointment</a>
+        <!-- <a class="nav-cta" href="contact.php">Appointment</a> -->
     </div>
 </header>
 <main>
