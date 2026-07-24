@@ -68,7 +68,74 @@ include __DIR__ . '/includes/header.php';
     </div>
 </section>
 
+<section class="carousel-section" aria-labelledby="home-carousel-title">
+    <div class="home-carousel" data-carousel aria-label="Daliya Ayurvedics care highlights">
+        <button class="carousel-arrow carousel-arrow-left" type="button" data-carousel-prev aria-label="Show previous carousel image">‹</button>
+        <div class="carousel-viewport">
+            <div class="carousel-track" data-carousel-track>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-1.svg" alt="Ayurvedic herbs and mortar representing holistic natural care">
+                    <figcaption>
+                        <span>Holistic Ayurveda</span>
+                        <strong id="home-carousel-title">A calming glimpse of Daliya Ayurvedics.</strong>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-2.svg" alt="Illustration representing careful traditional bone setting support">
+                    <figcaption>
+                        <span>Traditional care</span>
+                        <strong>Bone setting support</strong>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-3.svg" alt="Ayurvedic doctor consultation card with natural leaf motif">
+                    <figcaption>
+                        <span>Personalised guidance</span>
+                        <strong>Ayurvedic consultation</strong>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-4.svg" alt="Physiotherapy care illustration for mobility and recovery">
+                    <figcaption>
+                        <span>Recovery support</span>
+                        <strong>Physiotherapy care</strong>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-5.svg" alt="Family wellness illustration with leaf and healing cross">
+                    <figcaption>
+                        <span>Wellness for all ages</span>
+                        <strong>Family wellbeing</strong>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <button class="carousel-arrow carousel-arrow-right" type="button" data-carousel-next aria-label="Show next carousel image">›</button>
+        <div class="carousel-dots" aria-hidden="true">
+            <span data-carousel-dot class="active"></span><span data-carousel-dot></span><span data-carousel-dot></span><span data-carousel-dot></span><span data-carousel-dot></span>
+        </div>
+    </div>
+</section>
 
+<script>
+    document.querySelectorAll('[data-carousel]').forEach((carousel) => {
+        const track = carousel.querySelector('[data-carousel-track]');
+        const slides = carousel.querySelectorAll('.carousel-slide');
+        const dots = carousel.querySelectorAll('[data-carousel-dot]');
+        const previous = carousel.querySelector('[data-carousel-prev]');
+        const next = carousel.querySelector('[data-carousel-next]');
+        let currentSlide = 0;
+
+        const showSlide = (slideIndex) => {
+            currentSlide = (slideIndex + slides.length) % slides.length;
+            track.style.transform = `translateX(-${currentSlide * 20}%)`;
+            dots.forEach((dot, index) => dot.classList.toggle('active', index === currentSlide));
+        };
+
+        previous.addEventListener('click', () => showSlide(currentSlide - 1));
+        next.addEventListener('click', () => showSlide(currentSlide + 1));
+    });
+</script>
 
 <section class="section-pad">
     <div class="container">
