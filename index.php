@@ -27,6 +27,65 @@ include __DIR__ . '/includes/header.php';
     </div>
 </section>
 
+<section class="section-pad carousel-section" aria-labelledby="home-carousel-title">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">Inside our care</span>
+            <h2 id="home-carousel-title">A calming glimpse of Daliya Ayurvedics.</h2>
+            <p>Explore five moments that reflect our patient-first approach to Ayurvedic consultation, traditional bone setting, physiotherapy and family wellness.</p>
+        </div>
+        <div class="home-carousel" data-carousel aria-label="Daliya Ayurvedics care highlights">
+            <button class="carousel-arrow carousel-arrow-left" type="button" data-carousel-prev aria-label="Show previous carousel image">‹</button>
+            <div class="carousel-viewport">
+                <div class="carousel-track" data-carousel-track>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-1.svg" alt="Ayurvedic herbs and mortar representing holistic natural care">
+                    <figcaption>Holistic Ayurveda</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-2.svg" alt="Illustration representing careful traditional bone setting support">
+                    <figcaption>Bone setting support</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-3.svg" alt="Ayurvedic doctor consultation card with natural leaf motif">
+                    <figcaption>Personalised consultation</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-4.svg" alt="Physiotherapy care illustration for mobility and recovery">
+                    <figcaption>Physiotherapy care</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-5.svg" alt="Family wellness illustration with leaf and healing cross">
+                    <figcaption>Family wellness</figcaption>
+                </figure>
+                </div>
+            </div>
+            <button class="carousel-arrow carousel-arrow-right" type="button" data-carousel-next aria-label="Show next carousel image">›</button>
+            <div class="carousel-dots" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.querySelectorAll('[data-carousel]').forEach((carousel) => {
+        const track = carousel.querySelector('[data-carousel-track]');
+        const slides = carousel.querySelectorAll('.carousel-slide');
+        const previous = carousel.querySelector('[data-carousel-prev]');
+        const next = carousel.querySelector('[data-carousel-next]');
+        let currentSlide = 0;
+
+        const showSlide = (slideIndex) => {
+            currentSlide = (slideIndex + slides.length) % slides.length;
+            track.style.transform = `translateX(-${currentSlide * 20}%)`;
+        };
+
+        previous.addEventListener('click', () => showSlide(currentSlide - 1));
+        next.addEventListener('click', () => showSlide(currentSlide + 1));
+    });
+</script>
+
 <section class="section-pad">
     <div class="container">
         <div class="section-heading">
