@@ -36,9 +36,9 @@ include __DIR__ . '/includes/header.php';
                     <figcaption>Family wellness</figcaption>
                 </figure>
             </div>
-            <div class="carousel-dots" aria-hidden="true">
+            <!-- <div class="carousel-dots" aria-hidden="true">
                 <span></span><span></span><span></span><span></span><span></span>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
