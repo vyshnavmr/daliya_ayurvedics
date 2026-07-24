@@ -27,6 +27,43 @@ include __DIR__ . '/includes/header.php';
     </div>
 </section>
 
+<section class="section-pad carousel-section" aria-labelledby="home-carousel-title">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">Inside our care</span>
+            <h2 id="home-carousel-title">A calming glimpse of Daliya Ayurvedics.</h2>
+            <p>Explore five moments that reflect our patient-first approach to Ayurvedic consultation, traditional bone setting, physiotherapy and family wellness.</p>
+        </div>
+        <div class="home-carousel" aria-label="Daliya Ayurvedics care highlights">
+            <div class="carousel-track">
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-1.svg" alt="Ayurvedic herbs and mortar representing holistic natural care">
+                    <figcaption>Holistic Ayurveda</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-2.svg" alt="Illustration representing careful traditional bone setting support">
+                    <figcaption>Bone setting support</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-3.svg" alt="Ayurvedic doctor consultation card with natural leaf motif">
+                    <figcaption>Personalised consultation</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-4.svg" alt="Physiotherapy care illustration for mobility and recovery">
+                    <figcaption>Physiotherapy care</figcaption>
+                </figure>
+                <figure class="carousel-slide">
+                    <img src="assets/images/home-carousel-5.svg" alt="Family wellness illustration with leaf and healing cross">
+                    <figcaption>Family wellness</figcaption>
+                </figure>
+            </div>
+            <div class="carousel-dots" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section-pad">
     <div class="container">
         <div class="section-heading">
