@@ -19,6 +19,35 @@ $specialities = [
     </div>
 </section>
 <section class="section-pad">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">Conditions We Treat</span>
+            <h2>Conditions We Treat</h2>
+            <!-- <p>We provide Ayurvedic treatment, traditional bone setting, and rehabilitation support for a wide range of musculoskeletal conditions.</p> -->
+        </div>
+
+        <div class="card-grid four conditions-grid">
+            <article class="info-card"><h3>Chronic Back Pain</h3></article>
+            <article class="info-card"><h3>Disc Bulge & Slipped Disc</h3></article>
+            <article class="info-card"><h3>Neck Pain</h3></article>
+            <article class="info-card"><h3>Knee Pain</h3></article>
+
+            <article class="info-card"><h3>Shoulder Pain</h3></article>
+            <article class="info-card"><h3>Joint Pain</h3></article>
+            <article class="info-card"><h3>Heel Pain</h3></article>
+            <article class="info-card"><h3>Sciatica</h3></article>
+
+            <article class="info-card"><h3>Varicose Veins</h3></article>
+            <article class="info-card"><h3>Arthritis</h3></article>
+            <article class="info-card"><h3>Muscle Stiffness</h3></article>
+            <article class="info-card"><h3>Sports Injuries</h3></article>
+
+            <article class="info-card"><h3>Fractures & Sprains</h3></article>
+            <article class="info-card"><h3>Walking Difficulty & Mobility Problems</h3></article>
+        </div>
+    </div>
+</section>
+<section class="section-pad">
     <div class="container card-grid three">
         <?php foreach ($specialities as $item): ?>
             <article class="info-card tall">

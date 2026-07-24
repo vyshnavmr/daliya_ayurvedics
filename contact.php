@@ -7,7 +7,7 @@ include __DIR__ . '/includes/header.php';
     <div class="container">
         <span class="eyebrow">Contact us</span>
         <h1>Book an appointment or ask about treatments.</h1>
-        <p>Share your concern with our clinic team and we will guide you to the right consultation or therapy support.</p>
+        <p>Share your concern with our doctors and we will guide you to the right consultation or therapy support.</p>
     </div>
 </section>
 <section class="section-pad">

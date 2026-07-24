@@ -6,25 +6,53 @@ include __DIR__ . '/includes/header.php';
 <section class="page-hero">
     <div class="container">
         <span class="eyebrow">Traditional bone setting</span>
-        <h1>Bone setting care by Hanshi Ajayakumar Nair.</h1>
+        <h1>Bone setting by Hanshi Ajayakumar Nair.</h1>
         <p>Learn how traditional bone setting can support alignment, pain relief and mobility when selected carefully for the patient’s condition.</p>
     </div>
 </section>
 <section class="section-pad">
-    <div class="container split-grid">
-        <div>
+    <div class="container">
+
+        <div class="about-section">
             <h2>About bone setting</h2>
-            <p>Bone setting is a traditional hands-on therapy focused on musculoskeletal balance. It may include careful manual assessment, gentle corrections, herbal oil support, bandaging guidance, rest advice and follow-up exercises when appropriate.</p>
-            <p>At Daliya Ayurvedics, patient safety and clarity are important. Severe injuries, fractures, heavy swelling, open wounds or emergency symptoms should be evaluated by emergency medical services or an orthopaedic specialist immediately.</p>
+            <p>At Daliya Ayurvedic & Bone Setting Centre, we provide specialized Ayurvedic and Bone Setting treatments for a wide range of musculoskeletal and joint-related conditions. Our treatments are designed to help manage chronic back pain, disc bulge, slipped disc, neck pain, knee pain, shoulder pain, joint pain, heel pain, sciatica, varicose veins, arthritis, muscle stiffness, sports injuries, fractures, sprains, and mobility-related problems. With a holistic approach that combines traditional Ayurvedic therapies and expert bone setting techniques, we focus on relieving pain, restoring movement, and improving your overall quality of life—naturally and safely.</p>
+
+            <!-- <p>At Daliya Ayurvedics, patient safety and clarity are important. Severe injuries, fractures, heavy swelling, open wounds or emergency symptoms should be evaluated by emergency medical services or an orthopaedic specialist immediately.</p> -->
         </div>
-        <div class="profile-card">
-            <div class="avatar">HA</div>
+
+        <div class="profile-card doctor-card">
+            <div class="avatar">
+                <img src="assets\bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
+            </div>
             <h2>Hanshi Ajayakumar Nair</h2>
-            <p>Traditional bone setter</p>
-            <p>Well-known figure in martial arts, Hanshi Ajaykumar Nair has got 37 years of training experience in Japan Shito Ryu Technical Karate, 4yrs of experience in Kung-fu- Animal Kinaco Style, 3years of experience in Nepal Akki Ayurveda Special Treatment, 2years of experience in Physitherapy and 3 years of experience in Kalarippayattu. He has secured 2years Master Degree in Kick Boxing, Weight Loss Tummy Reduction and Body Toning Exercises for ladies and gents. In 1989 and 1992, Mr. Hanshi Ajaykumar has won 3rd and 4th Dan Black Belt consecutively from JAPAN.</p>
-            <p>He promulgates and practices a treatment system that is complementary and alternative medicine that incorporates the diagnosis and treatment of mechanical disorders of the musculoskeletal system, especially the spine. Hands-on spinal manipulation and other alternative treatments are part of his method. Restricted mobility of joints due to tissue injury caused by a traumatic event, is restored through skilful physical manoeuvres. Hanshi Ajaykumar is an expert in alternative regimes for curing pain in muscles, joints, bones, and connective tissue, such as cartilage, ligaments and tendons.</p>
+            <p><strong>Traditional bone setter</strong></p>
+
+            <p>Hanshi Ajayakumar Nair is an experienced traditional bone setter and complementary medicine practitioner specializing in the diagnosis and treatment of musculoskeletal injuries, particularly fractures, joint dislocations, ligament injuries, and spinal disorders. With over 39 years of experience, he combines traditional bone setting techniques with knowledge gained from Japan Shito Ryu Karate, Kalarippayattu, physiotherapy, and Akki Ayurveda, using hands on manipulation and supportive therapies to restore joint mobility, reduce pain, and promote natural healing.</p>
+
+            <p>In addition to his clinical work, Hanshi Ajayakumar Nair is a respected martial arts instructor and sports leader, having earned 3rd and 4th Dan Black Belts in Japan Shito Ryu Karate and serving in leadership roles within several karate and kickboxing organizations in India. He currently serves as the Chief Bone Setter at Daliya Ayurvedic & Bone Setting Centre, where he focuses on providing holistic, non surgical care for bone, joint, and soft tissue injuries.</p>
+        </div>
+
+    </div>
+</section>
+<section class="section-pad soft-bg">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">Benefits</span>
+            <h2>Why patients choose traditional bone setting</h2>
+        </div>
+        <div class="card-grid three">
+            <article class="info-card">
+                <h3>Mobility support</h3>
+                <p>Helps selected patients improve movement comfort with manual care and guided rehabilitation.</p>
+            </article>
+            <article class="info-card">
+                <h3>Natural pain relief</h3>
+                <p>Uses traditional techniques and Ayurvedic support to reduce discomfort where suitable.</p>
+            </article><article class="info-card">
+                <h3>Recovery guidance</h3>
+                <p>Includes posture, rest, exercise and follow-up advice for better long-term outcomes.</p>
+            </article>
         </div>
     </div>
 </section>
-<section class="section-pad soft-bg"><div class="container"><div class="section-heading"><span class="eyebrow">Therapy benefits</span><h2>Why patients choose traditional bone setting</h2></div><div class="card-grid three"><article class="info-card"><h3>Mobility support</h3><p>Helps selected patients improve movement comfort with manual care and guided rehabilitation.</p></article><article class="info-card"><h3>Natural pain relief</h3><p>Uses traditional techniques and Ayurvedic support to reduce discomfort where suitable.</p></article><article class="info-card"><h3>Recovery guidance</h3><p>Includes posture, rest, exercise and follow-up advice for better long-term outcomes.</p></article></div></div></section>
 <?php include __DIR__ . '/includes/footer.php'; ?>
