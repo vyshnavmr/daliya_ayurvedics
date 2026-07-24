@@ -4,28 +4,7 @@ $activePage = 'home';
 include __DIR__ . '/includes/header.php';
 ?>
 
-<section class="hero section-pad">
-    <div class="container hero-grid">
-        <div class="hero-copy">
-            <span class="eyebrow">Traditional care • Modern comfort</span>
-            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and physiotherapy.</h1>
-            <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
-            <div class="hero-actions">
-                <a class="btn btn-primary" href="contact.php">Book an appointment</a>
-                <a class="btn btn-secondary" href="specialities.php">Explore treatments</a>
-            </div>
-        </div>
-        <div class="hero-card">
-            <h2>Complete clinic support</h2>
-            <ul>
-                <li>Bone setting by Hanshi Ajayakumar Nair</li>
-                <li>Male and female physiotherapy assistance</li>
-                <li>Certified Ayurvedic doctor consultation</li>
-                <li>Personalised wellness and recovery plans</li>
-            </ul>
-        </div>
-    </div>
-</section>
+
 
 <section class="section-pad carousel-section" aria-labelledby="home-carousel-title">
     <div class="container">
@@ -63,6 +42,33 @@ include __DIR__ . '/includes/header.php';
         </div>
     </div>
 </section>
+
+
+
+<section class="hero section-pad">
+    <div class="container hero-grid">
+        <div class="hero-copy">
+            <span class="eyebrow">Traditional care • Modern comfort</span>
+            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and physiotherapy.</h1>
+            <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="contact.php">Book an appointment</a>
+                <a class="btn btn-secondary" href="specialities.php">Explore treatments</a>
+            </div>
+        </div>
+        <div class="hero-card">
+            <h2>Complete clinic support</h2>
+            <ul>
+                <li>Bone setting by Hanshi Ajayakumar Nair</li>
+                <li>Male and female physiotherapy assistance</li>
+                <li>Certified Ayurvedic doctor consultation</li>
+                <li>Personalised wellness and recovery plans</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
 
 <section class="section-pad">
     <div class="container">
