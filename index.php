@@ -5,69 +5,6 @@ include __DIR__ . '/includes/header.php';
 ?>
 
 
-
-<section class="section-pad carousel-section" aria-labelledby="home-carousel-title">
-    <div class="container">
-        <div class="section-heading">
-            <span class="eyebrow">Inside our care</span>
-            <h2 id="home-carousel-title">A calming glimpse of Daliya Ayurvedics.</h2>
-            <p>Explore five moments that reflect our patient-first approach to Ayurvedic consultation, traditional bone setting, physiotherapy and family wellness.</p>
-        </div>
-        <div class="home-carousel" aria-label="Daliya Ayurvedics care highlights">
-            <div class="carousel-track">
-                <figure class="carousel-slide">
-                    <img src="assets/images/home-carousel-1.svg" alt="Ayurvedic herbs and mortar representing holistic natural care">
-                    <figcaption>Holistic Ayurveda</figcaption>
-                </figure>
-                <figure class="carousel-slide">
-                    <img src="assets/images/home-carousel-2.svg" alt="Illustration representing careful traditional bone setting support">
-                    <figcaption>Bone setting support</figcaption>
-                </figure>
-                <figure class="carousel-slide">
-                    <img src="assets/images/home-carousel-3.svg" alt="Ayurvedic doctor consultation card with natural leaf motif">
-                    <figcaption>Personalised consultation</figcaption>
-                </figure>
-                <figure class="carousel-slide">
-                    <img src="assets/images/home-carousel-4.svg" alt="Physiotherapy care illustration for mobility and recovery">
-                    <figcaption>Physiotherapy care</figcaption>
-                </figure>
-                <figure class="carousel-slide">
-                    <img src="assets/images/home-carousel-5.svg" alt="Family wellness illustration with leaf and healing cross">
-                    <figcaption>Family wellness</figcaption>
-                </figure>
-            </div>
-            <!-- <div class="carousel-dots" aria-hidden="true">
-                <span></span><span></span><span></span><span></span><span></span>
-            </div> -->
-        </div>
-    </div>
-</section>
-
-
-
-<section class="hero section-pad">
-    <div class="container hero-grid">
-        <div class="hero-copy">
-            <span class="eyebrow">Traditional care • Modern comfort</span>
-            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and physiotherapy.</h1>
-            <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
-            <div class="hero-actions">
-                <a class="btn btn-primary" href="contact.php">Book an appointment</a>
-                <a class="btn btn-secondary" href="specialities.php">Explore treatments</a>
-            </div>
-        </div>
-        <div class="hero-card">
-            <h2>Complete clinic support</h2>
-            <ul>
-                <li>Bone setting by Hanshi Ajayakumar Nair</li>
-                <li>Male and female physiotherapy assistance</li>
-                <li>Certified Ayurvedic doctor consultation</li>
-                <li>Personalised wellness and recovery plans</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
 <section class="carousel-section" aria-labelledby="home-carousel-title">
     <div class="home-carousel" data-carousel aria-label="Daliya Ayurvedics care highlights">
         <button class="carousel-arrow carousel-arrow-left" type="button" data-carousel-prev aria-label="Show previous carousel image">‹</button>
@@ -116,6 +53,31 @@ include __DIR__ . '/includes/header.php';
         </div>
     </div>
 </section>
+
+
+<section class="hero section-pad">
+    <div class="container hero-grid">
+        <div class="hero-copy">
+            <span class="eyebrow">Traditional care • Modern comfort</span>
+            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and physiotherapy.</h1>
+            <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="contact.php">Book an appointment</a>
+                <a class="btn btn-secondary" href="specialities.php">Explore treatments</a>
+            </div>
+        </div>
+        <div class="hero-card">
+            <h2>Complete clinic support</h2>
+            <ul>
+                <li>Bone setting by Hanshi Ajayakumar Nair</li>
+                <li>Male and female physiotherapy assistance</li>
+                <li>Certified Ayurvedic doctor consultation</li>
+                <li>Personalised wellness and recovery plans</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
 
 <script>
     document.querySelectorAll('[data-carousel]').forEach((carousel) => {
