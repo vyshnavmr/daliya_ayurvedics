@@ -12,7 +12,7 @@
         <div>
             <h3>Contact</h3>
             <p>Phone: +91 89210 65523, <br>+91 92924 11503<br>Email: regmikasunil@gmail.com</p>
-            <p>Address: Daliya Ayurvedic and bone setting centre, Kollam, Kerala, India</p>
+            <p>Address: Daliya Ayurvedic and Bone Setting Centre, Elampaloor, Kollam, Kerala, India.</p>
             <p><a class="btn btn-primary direction-btn" href="https://maps.app.goo.gl/VUqrLboqNCWj5bNU7" target="_blank" rel="noopener">Get direction</a></p>
         </div>
     </div>

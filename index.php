@@ -51,7 +51,11 @@ include __DIR__ . '/includes/header.php';
         </div>
         <button class="carousel-arrow carousel-arrow-right" type="button" data-carousel-next aria-label="Show next carousel image">›</button>
         <div class="carousel-dots" aria-hidden="true">
-            <span data-carousel-dot class="active"></span><span data-carousel-dot></span><span data-carousel-dot></span><span data-carousel-dot></span><span data-carousel-dot></span>
+            <span data-carousel-dot class="active"></span>
+            <span data-carousel-dot></span>
+            <span data-carousel-dot></span>
+            <span data-carousel-dot></span>
+            <!-- <span data-carousel-dot></span> -->
         </div>
     </div>
 </section>

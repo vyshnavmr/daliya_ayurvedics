@@ -37,6 +37,11 @@ $videos = [
         'url' => 'https://youtube.com/shorts/_-SRsettFoA?si=TI-mCOuZW2CW8MG4',
         'thumbnail' => 'https://img.youtube.com/vi/_-SRsettFoA/hqdefault.jpg',
     ],
+    [
+        'title' => 'Daliya Ayurvedics Solution For BackPain',
+        'url' => 'https://youtube.com/shorts/ueNMdreiK-0?si=UJBUuXKD1uJT8Hbc',
+        'thumbnail' => 'https://i.ytimg.com/vi/ueNMdreiK-0/maxresdefault.jpg?utm_source=chatgpt.com',
+    ],
 ];
 
 $galleryImages = array_values(array_filter(array_map(function (array $item): ?array {
@@ -78,7 +83,7 @@ $galleryImages = array_values(array_filter(array_map(function (array $item): ?ar
                 <a class="gallery-video-card" href="<?= htmlspecialchars($video['url']); ?>" target="_blank" rel="noopener" aria-label="Open <?= htmlspecialchars($video['title']); ?> on YouTube">
                     <img class="gallery-video-thumbnail" src="<?= htmlspecialchars($video['thumbnail']); ?>" alt="<?= htmlspecialchars($video['title']); ?> thumbnail">
                     <span class="gallery-video-play" aria-hidden="true"></span>
-                    <span class="gallery-video-label"><?= htmlspecialchars($video['title']); ?></span>
+                    <!-- <span class="gallery-video-label"><?= htmlspecialchars($video['title']); ?></span> -->
                 </a>
             <?php endforeach; ?>
         </div>
