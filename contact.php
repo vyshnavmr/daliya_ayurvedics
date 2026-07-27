@@ -16,9 +16,9 @@ include __DIR__ . '/includes/header.php';
             <h2>Clinic details</h2>
             <p><strong>Phone:</strong> +91 89210 65523, +91 92924 11503</p>
             <p><strong>Email:</strong> regmikasunil@gmail.com</p>
-            <p><strong>Address:</strong> Daliya Ayurvedic and bone setting centre, Kollam, Kerala, India</p>
-            <p><a class="btn btn-primary direction-btn" href="https://maps.app.goo.gl/VUqrLboqNCWj5bNU7" target="_blank" rel="noopener">Get direction</a></p>
             <p><strong>Hours:</strong> Monday - Saturday, 9:00 AM - 6:00 PM</p>
+            <p><strong>Address:</strong> Daliya Ayurvedic and bone setting centre, Kollam, Kerala, India</p>
+            <p><a class="btn btn-primary direction-btn" href="https://maps.app.goo.gl/8Cohe9Hz4xeiJ8Ro8" target="_blank" rel="noopener">Get direction</a></p>
         </div>
         <form class="contact-form whatsapp-enquiry-form">
             <label>Name<input type="text" name="name" required></label>
