@@ -66,7 +66,7 @@ $specialities = [
             <h2>Meet Our Team</h2>
         </div>
 
-        <div class="team-grid">
+        <div class="team-grid specialities-team-grid">
 
             <article class="team-card">
 
