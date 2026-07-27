@@ -102,7 +102,7 @@ $specialities = [
 
                 <h3></h3>
                 <h5>Male Physiotherapist</h5>
-                <p>{name} specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence-based physiotherapy.</p>
+                <p>{name} specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence based physiotherapy.</p>
             </article>
         </div>
     </div>
