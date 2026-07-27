@@ -25,7 +25,7 @@ $navItems = [
 <body>
 <header class="site-header">
     <div class="container nav-wrap">
-        <a class="brand" href="index.php"><span>Daliya</span> Ayurvedics</a>
+        <a class="brand" href="index.php"><span>Daliya</span> Ayurvedic</a>
         <nav class="main-nav" aria-label="Primary navigation">
             <?php foreach ($navItems as $key => $item): ?>
                 <a class="<?= $activePage === $key ? 'active' : ''; ?>" href="<?= $item['url']; ?>"><?= $item['label']; ?></a>

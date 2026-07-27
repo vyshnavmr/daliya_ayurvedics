@@ -71,7 +71,7 @@ $specialities = [
             <article class="team-card">
 
                 <div class="avatar">
-                    <img src="assets/bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
+                    <img src="assets/images/bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
                 </div>
 
                 <h3>Hanshi Ajayakumar Nair</h3>
@@ -81,26 +81,28 @@ $specialities = [
 
             <article class="team-card">
                 <div class="avatar">
-                    <img src="assets/doctor.jpeg" alt="Certified Ayurvedic Doctor">
+                    <img src="assets/images/doctor.jpeg" alt="Certified Ayurvedic Doctor">
                 </div>
-                <h3>Certified Ayurvedic Doctor</h3>
-                <h5>Ayurvedic Consultation</h5>
-                <p></p>
+                <h3>Dr Sreelekshmi M M</h3>
+                <h5>Certified Ayurvedic Doctor (BAMS)</h5>
+                <p>Dr. Sreelekshmi is an Ayurvedic physician dedicated to providing personalized Ayurvedic care, focusing on holistic healing, pain management, and overall wellness through traditional treatment principles.</p>
             </article>
 
             <article class="team-card">
                 <div class="avatar">
-                    <img src="assets/physio_female.jpeg" alt="Female Physiotherapist">
+                    <img src="assets/images/physio_female.jpeg" alt="Female Physiotherapist">
                 </div>
-                <h3>Female Physiotherapist</h3>
-                <h5>Physiotherapy & Rehabilitation</h5>
+                <h3>Anju Mol S</h3>
+                <h5>Female Physiotherapist</h5>
+                <p>Anju Mol S is a dedicated Physiotherapist specializing in pain relief, rehabilitation, posture correction, and mobility improvement through personalized treatment plans.</p>
             </article>
             
             <article class="team-card">
                 <div class="team-avatar placeholder-avatar" aria-hidden="true">MP</div>
 
-                <h3>Male Physiotherapist</h3>
-                <h5>Physiotherapy & Rehabilitation</h5>
+                <h3></h3>
+                <h5>Male Physiotherapist</h5>
+                <p>{name} specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence based physiotherapy.</p>
             </article>
         </div>
     </div>
