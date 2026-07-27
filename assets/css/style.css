@@ -107,6 +107,13 @@ a {
   background: var(--sage);
   color: var(--green);
 }
+.direction-btn {
+  margin-top: 4px;
+}
+.site-footer .direction-btn {
+  background: var(--gold);
+  color: #fff;
+}
 .hero {
   background:
     radial-gradient(circle at 85% 25%, #e6f1dc, transparent 28%),
