@@ -41,10 +41,12 @@ document.querySelector('.whatsapp-enquiry-form').addEventListener('submit', func
 
     const form = event.currentTarget;
     const message = [
+        'New enquiry from Daliya Ayurvedics website',
+        '',
         `Name: ${form.elements.name.value.trim()}`,
         `Phone: ${form.elements.phone.value.trim()}`,
         `Treatment interest: ${form.elements.interest.value}`,
-        `Message: ${form.elements.message.value.trim() || 'No message'}`
+        `Message: ${form.elements.message.value.trim() || 'No message provided'}`
     ].join('\n');
 
     window.open(`https://wa.me/918921065523?text=${encodeURIComponent(message)}`, '_blank', 'noopener');

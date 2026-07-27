@@ -406,9 +406,10 @@ a {
 }
 .about-story-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  grid-template-columns: 1fr;
   gap: 28px;
   align-items: start;
+  max-width: 920px;
 }
 .about-story-card p:last-child,
 .owner-video-card p:last-child {
