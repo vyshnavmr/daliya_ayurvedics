@@ -612,6 +612,29 @@ a {
   .footer-grid {
     grid-template-columns: 1fr;
   }
+  .team-grid.specialities-team-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .specialities-team-grid .team-card {
+    padding: 22px 18px;
+    min-height: auto;
+  }
+  .team-card h3 {
+    font-size: 1rem;
+  }
+  .team-card h5 {
+    font-size: 0.78rem;
+  }
+  .team-card p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+  .avatar,
+  .team-avatar {
+    width: 104px;
+    height: 104px;
+  }
   .hero-actions .btn {
     width: 100%;
   }
