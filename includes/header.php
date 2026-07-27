@@ -3,6 +3,7 @@ $activePage = $activePage ?? '';
 $pageTitle = $pageTitle ?? 'Daliya Ayurvedics';
 $navItems = [
     'home' => ['label' => 'Home', 'url' => 'index.php'],
+    'about' => ['label' => 'About Us', 'url' => 'about-us.php'],
     'gallery' => ['label' => 'Gallery', 'url' => 'gallery.php'],
     'specialities' => ['label' => 'Specialities', 'url' => 'specialities.php'],
     'bone-setting' => ['label' => 'Bone Setting', 'url' => 'bone-setting.php'],
