@@ -107,6 +107,13 @@ a {
   background: var(--sage);
   color: var(--green);
 }
+.direction-btn {
+  margin-top: 4px;
+}
+.site-footer .direction-btn {
+  background: var(--gold);
+  color: #fff;
+}
 .hero {
   background:
     radial-gradient(circle at 85% 25%, #e6f1dc, transparent 28%),
@@ -526,8 +533,16 @@ a {
   padding: 0;
   overflow: hidden;
 }
+.gallery-image,
 .image-placeholder {
-  height: 220px;
+  width: 100%;
+  height: 260px;
+}
+.gallery-image {
+  object-fit: cover;
+  display: block;
+}
+.image-placeholder {
   background: linear-gradient(135deg, var(--sage), var(--light));
   display: grid;
   place-items: center;
