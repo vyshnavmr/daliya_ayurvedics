@@ -57,30 +57,55 @@ $specialities = [
         <?php endforeach; ?>
     </div>
 </section>
+
 <section class="section-pad soft-bg">
     <div class="container">
+
         <div class="section-heading">
-            <span class="eyebrow">Our staff</span>
-            <h2>Four-member care team</h2>
+            <span class="eyebrow">Our Staff</span>
+            <h2>Meet Our Team</h2>
         </div>
+
         <div class="team-grid">
-            <article>
+
+            <article class="team-card">
+
+                <div class="avatar">
+                    <img src="assets/bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
+                </div>
+
                 <h3>Hanshi Ajayakumar Nair</h3>
-                <p>Bone setter</p>
+                <h5>Traditional Bone Setter</h5>
+                <p>Hanshi Ajayakumar Nair is an experienced traditional bone setter and complementary medicine practitioner specializing in the diagnosis and treatment of musculoskeletal injuries, particularly fractures, joint dislocations, ligament injuries, and spinal disorders.</p>
             </article>
-            <article>
-                <h3>Female physiotherapist</h3>
-                <p>Physiotherapy and rehabilitation support</p>
+
+            <article class="team-card">
+                <div class="avatar">
+                    <img src="assets/doctor.jpeg" alt="Certified Ayurvedic Doctor">
+                </div>
+                <h3>Certified Ayurvedic Doctor</h3>
+                <h5>Ayurvedic Consultation</h5>
+                <p></p>
             </article>
-            <article>
-                <h3>Male physiotherapist</h3>
-                <p>Mobility, strengthening and recovery assistance</p>
+
+            <article class="team-card">
+                <div class="avatar">
+                    <img src="assets/physio_female.jpeg" alt="Female Physiotherapist">
+                </div>
+                <h3>Female Physiotherapist</h3>
+                <h5>Physiotherapy & Rehabilitation</h5>
             </article>
-            <article>
-                <h3>Certified Ayurvedic doctor</h3>
-                <p>Ayurvedic diagnosis, consultation and treatment planning</p>
+            
+            <article class="team-card">
+                <div class="team-avatar">
+                    <img src="assets/male-physio.jpg" alt="Male Physiotherapist">
+                </div>
+                
+                <h3>Male Physiotherapist</h3>
+                <h5>Physiotherapy & Rehabilitation</h5>
             </article>
         </div>
     </div>
 </section>
+
 <?php include __DIR__ . '/includes/footer.php'; ?>
