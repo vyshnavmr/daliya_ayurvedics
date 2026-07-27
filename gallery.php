@@ -46,7 +46,7 @@ $galleryImages = array_values(array_filter(array_map(function (array $item): ?ar
     </div>
 </section>
 <section class="gallery-section" aria-label="Clinic photo gallery">
-    <div class="gallery-grid gallery-photo-grid">
+    <div class="container gallery-grid gallery-photo-grid">
         <?php foreach ($items as $item): ?>
             <?php $imagePath = getGalleryImagePath($item['name']); ?>
             <?php if ($imagePath): ?>
