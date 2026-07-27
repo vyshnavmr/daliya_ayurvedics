@@ -14,8 +14,8 @@ include __DIR__ . '/includes/header.php';
     <div class="container contact-grid">
         <div class="contact-card">
             <h2>Clinic details</h2>
-            <p><strong>Phone:</strong> +91 89210 65523, +91 85901 57518</p>
-            <p><strong>Email:</strong> care@daliyaayurvedics.com</p>
+            <p><strong>Phone:</strong> +91 89210 65523, +91 92924 11503</p>
+            <p><strong>Email:</strong> regmikasunil@gmail.com</p>
             <p><strong>Address:</strong> Daliya Ayurvedic and bone setting centre, Kollam, Kerala, India</p>
             <p><strong>Hours:</strong> Monday - Saturday, 9:00 AM - 6:00 PM</p>
         </div>

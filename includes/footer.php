@@ -11,7 +11,7 @@
         </div>
         <div>
             <h3>Contact</h3>
-            <p>Phone: +91 89210 65523, <br>+91 85901 57518<br>Email: care@daliyaayurvedics.com</p>
+            <p>Phone: +91 89210 65523, <br>+91 92924 11503<br>Email: regmikasunil@gmail.com</p>
         </div>
     </div>
     <p class="footer-note">© <?= date('Y'); ?> Daliya Ayurvedics. Information on this website is for awareness and does not replace emergency medical care.</p>
