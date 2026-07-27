@@ -296,6 +296,12 @@ a {
     align-items:start;
 }
 
+.team-grid.specialities-team-grid {
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    max-width:760px;
+    margin:0 auto;
+}
+
 .team-card{
     align-self:start;
     background:#fff;
