@@ -26,6 +26,19 @@ $items = [
     ['title' => 'Massage', 'name' => 'massage'],
 ];
 
+$videos = [
+    [
+        'title' => 'Daliya Ayurvedics video 1',
+        'url' => 'https://youtube.com/shorts/AdGnft_3OEc?si=SFD32eHvoZDbdjyu',
+        'thumbnail' => 'https://img.youtube.com/vi/AdGnft_3OEc/hqdefault.jpg',
+    ],
+    [
+        'title' => 'Daliya Ayurvedics video 2',
+        'url' => 'https://youtube.com/shorts/_-SRsettFoA?si=TI-mCOuZW2CW8MG4',
+        'thumbnail' => 'https://img.youtube.com/vi/_-SRsettFoA/hqdefault.jpg',
+    ],
+];
+
 $galleryImages = array_values(array_filter(array_map(function (array $item): ?array {
     $path = getGalleryImagePath($item['name']);
 
@@ -58,6 +71,17 @@ $galleryImages = array_values(array_filter(array_map(function (array $item): ?ar
                 <div class="gallery-card gallery-photo-card image-placeholder"><?= htmlspecialchars($item['title']); ?></div>
             <?php endif; ?>
         <?php endforeach; ?>
+    </div>
+    <div class="container gallery-video-section" aria-label="Clinic videos">
+        <div class="gallery-video-grid">
+            <?php foreach ($videos as $video): ?>
+                <a class="gallery-video-card" href="<?= htmlspecialchars($video['url']); ?>" target="_blank" rel="noopener" aria-label="Open <?= htmlspecialchars($video['title']); ?> on YouTube">
+                    <img class="gallery-video-thumbnail" src="<?= htmlspecialchars($video['thumbnail']); ?>" alt="<?= htmlspecialchars($video['title']); ?> thumbnail">
+                    <span class="gallery-video-play" aria-hidden="true"></span>
+                    <span class="gallery-video-label"><?= htmlspecialchars($video['title']); ?></span>
+                </a>
+            <?php endforeach; ?>
+        </div>
     </div>
 </section>
 <?php if ($galleryImages): ?>
