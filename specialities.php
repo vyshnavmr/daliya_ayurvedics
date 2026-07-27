@@ -97,10 +97,8 @@ $specialities = [
             </article>
             
             <article class="team-card">
-                <div class="team-avatar">
-                    <img src="assets/male-physio.jpg" alt="Male Physiotherapist">
-                </div>
-                
+                <div class="team-avatar placeholder-avatar" aria-hidden="true">MP</div>
+
                 <h3>Male Physiotherapist</h3>
                 <h5>Physiotherapy & Rehabilitation</h5>
             </article>

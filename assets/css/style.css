@@ -291,8 +291,9 @@ a {
 
 .team-grid{
     display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    gap:30px;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:24px;
+    align-items:start;
 }
 
 .team-card{
@@ -300,10 +301,32 @@ a {
     background:#fff;
     border:1px solid #e5eadf;
     border-radius:24px;
-    padding:30px;
+    padding:24px;
     box-shadow:0 12px 30px rgba(36,77,51,.08);
-
     width:100%;
+}
+
+.team-card h3,
+.team-card h5,
+.team-card p {
+    text-align:center;
+}
+
+.team-card h5 {
+    margin:0 0 12px;
+    color:var(--gold);
+}
+
+.team-card p {
+    display:-webkit-box;
+    margin:0;
+    overflow:hidden;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:4;
+}
+
+.team-card p:empty {
+    display:none;
 }
 
 .carousel-arrow:hover,
@@ -415,9 +438,10 @@ a {
     margin: 0 auto 20px;
 }
 
-.avatar {
-    width: 150px;
-    height: 150px;
+.avatar,
+.team-avatar {
+    width: 128px;
+    height: 128px;
     margin: 0 auto 20px;
     border-radius: 50%;
     overflow: hidden;
@@ -425,11 +449,23 @@ a {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.avatar img {
-    width: 99.7%;
+.avatar img,
+.team-avatar img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     display: block;
+}
+
+.placeholder-avatar {
+    display:grid;
+    place-items:center;
+    background:linear-gradient(145deg, var(--sage), var(--light));
+    color:var(--green);
+    font-weight:800;
+    font-size:1.55rem;
+    letter-spacing:.08em;
 }
 
 .avatar-physio{
