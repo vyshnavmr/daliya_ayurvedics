@@ -296,6 +296,19 @@ a {
     align-items:start;
 }
 
+.team-grid.specialities-team-grid {
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    max-width:100%;
+    margin:0 auto;
+    align-items:stretch;
+    justify-items:stretch;
+}
+
+.specialities-team-grid .team-card {
+    align-self:stretch;
+    height:100%;
+}
+
 .team-card{
     align-self:start;
     background:#fff;
@@ -318,11 +331,7 @@ a {
 }
 
 .team-card p {
-    display:-webkit-box;
     margin:0;
-    overflow:hidden;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp:4;
 }
 
 .team-card p:empty {
@@ -394,6 +403,32 @@ a {
 }
 .info-card.tall {
   min-height: 220px;
+}
+.about-story-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: 28px;
+  align-items: start;
+}
+.about-story-card p:last-child,
+.owner-video-card p:last-child {
+  margin-bottom: 0;
+}
+.video-embed {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  background: var(--green);
+  box-shadow: 0 12px 30px rgba(36, 77, 51, 0.08);
+  aspect-ratio: 16 / 9;
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 .check-list {
   padding-left: 20px;
@@ -538,6 +573,32 @@ a {
 .site-footer p {
   color: #fff;
 }
+.whatsapp-float {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #16a068;
+  color: #fff;
+  box-shadow: 0 14px 34px rgba(22, 160, 104, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(22, 160, 104, 0.45);
+  outline: none;
+}
+.whatsapp-float svg {
+  width: 38px;
+  height: 38px;
+  fill: currentColor;
+}
 .footer-note {
   text-align: center;
   margin-top: 28px;
@@ -550,6 +611,7 @@ a {
   }
   .hero-grid,
   .split-grid,
+  .about-story-grid,
   .reverse,
   .contact-grid {
     grid-template-columns: 1fr;
@@ -603,8 +665,45 @@ a {
   .footer-grid {
     grid-template-columns: 1fr;
   }
+  .team-grid.specialities-team-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .specialities-team-grid .team-card {
+    padding: 22px 18px;
+    min-height: auto;
+  }
+  .team-card h3 {
+    font-size: 1rem;
+  }
+  .team-card h5 {
+    font-size: 0.78rem;
+  }
+  .team-card p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+  .avatar,
+  .team-avatar {
+    width: 104px;
+    height: 104px;
+  }
+  .whatsapp-float {
+    right: 18px;
+    bottom: 18px;
+    width: 56px;
+    height: 56px;
+  }
+  .whatsapp-float svg {
+    width: 34px;
+    height: 34px;
+  }
   .hero-actions .btn {
     width: 100%;
+  }
+  .about-story-card,
+  .owner-video-card {
+    padding: 22px 18px;
   }
   .section-pad,
   .page-hero {

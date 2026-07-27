@@ -3,6 +3,7 @@ $activePage = $activePage ?? '';
 $pageTitle = $pageTitle ?? 'Daliya Ayurvedics';
 $navItems = [
     'home' => ['label' => 'Home', 'url' => 'index.php'],
+    'about' => ['label' => 'About Us', 'url' => 'about-us.php'],
     'gallery' => ['label' => 'Gallery', 'url' => 'gallery.php'],
     'specialities' => ['label' => 'Specialities', 'url' => 'specialities.php'],
     'bone-setting' => ['label' => 'Bone Setting', 'url' => 'bone-setting.php'],
@@ -19,7 +20,7 @@ $navItems = [
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css?v=<?= filemtime(__DIR__ . '/../assets/css/style.css'); ?>">
 </head>
 <body>
 <header class="site-header">

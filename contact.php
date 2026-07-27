@@ -19,9 +19,7 @@ include __DIR__ . '/includes/header.php';
             <p><strong>Address:</strong> Daliya Ayurvedics Clinic, Your Town, Kerala, India</p>
             <p><strong>Hours:</strong> Monday - Saturday, 9:00 AM - 6:00 PM</p>
         </div>
-        <form class="contact-form" 
-         action="mailto:vyshnav2004sk@gmail.com"
-         method="post" enctype="text/plain">
+        <form class="contact-form whatsapp-enquiry-form">
             <label>Name<input type="text" name="name" required></label>
             <label>Phone<input type="tel" name="phone" required></label>
             <label>Treatment interest
@@ -33,8 +31,25 @@ include __DIR__ . '/includes/header.php';
             </label>
             <label>Message<textarea name="message" rows="5"></textarea>
             </label>
-            <button class="btn btn-primary" type="submit">Send enquiry</button>
+            <button class="btn btn-primary" type="submit">Send WhatsApp enquiry</button>
         </form>
     </div>
 </section>
+<script>
+document.querySelector('.whatsapp-enquiry-form').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const form = event.currentTarget;
+    const message = [
+        'New enquiry from Daliya Ayurvedics website',
+        '',
+        `Name: ${form.elements.name.value.trim()}`,
+        `Phone: ${form.elements.phone.value.trim()}`,
+        `Treatment interest: ${form.elements.interest.value}`,
+        `Message: ${form.elements.message.value.trim() || 'No message provided'}`
+    ].join('\n');
+
+    window.open(`https://wa.me/918921065523?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
+});
+</script>
 <?php include __DIR__ . '/includes/footer.php'; ?>
