@@ -71,7 +71,7 @@ $specialities = [
             <article class="team-card">
 
                 <div class="avatar">
-                    <img src="assets/bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
+                    <img src="assets/images/bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
                 </div>
 
                 <h3>Hanshi Ajayakumar Nair</h3>
@@ -81,7 +81,7 @@ $specialities = [
 
             <article class="team-card">
                 <div class="avatar">
-                    <img src="assets/doctor.jpeg" alt="Certified Ayurvedic Doctor">
+                    <img src="assets/images/doctor.jpeg" alt="Certified Ayurvedic Doctor">
                 </div>
                 <h3>Dr Sreelekshmi M M</h3>
                 <h5>Certified Ayurvedic Doctor (BAMS)</h5>
@@ -90,7 +90,7 @@ $specialities = [
 
             <article class="team-card">
                 <div class="avatar">
-                    <img src="assets/physio_female.jpeg" alt="Female Physiotherapist">
+                    <img src="assets/images/physio_female.jpeg" alt="Female Physiotherapist">
                 </div>
                 <h3>Anju Mol S</h3>
                 <h5>Female Physiotherapist</h5>
