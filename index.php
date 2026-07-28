@@ -68,8 +68,8 @@ include __DIR__ . '/includes/header.php';
             <h1>Daliya Ayurvedic and Bone Setting Centre</h1>
             <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
             <div class="hero-actions">
-                <a class="btn btn-primary" href="contact.php">Book an appointment</a>
-                <a class="btn btn-secondary" href="specialities.php">Explore treatments</a>
+                <a class="btn btn-primary" href="contactus">Book an appointment</a>
+                <a class="btn btn-secondary" href="specialities">Explore treatments</a>
             </div>
         </div>
         <div class="hero-card">
@@ -149,7 +149,7 @@ include __DIR__ . '/includes/header.php';
             <span class="eyebrow">Why prefer Ayurveda</span>
             <h2>Care that looks at the root cause, not only the symptom.</h2>
             <p>Ayurveda considers body constitution, food habits, sleep, work routine and emotional wellbeing before suggesting care. Many patients prefer Ayurvedic care because it is holistic, uses natural preparations and encourages sustainable lifestyle changes alongside clinical advice.</p>
-            <a class="text-link" href="specialities.php">View our specialities →</a>
+            <a class="text-link" href="specialities">View our specialities →</a>
         </div>
     </div>
 </section>

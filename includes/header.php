@@ -2,12 +2,12 @@
 $activePage = $activePage ?? '';
 $pageTitle = $pageTitle ?? 'Daliya Ayurvedic';
 $navItems = [
-    'home' => ['label' => 'Home', 'url' => 'index.php'],
-    'specialities' => ['label' => 'Specialities', 'url' => 'specialities.php'],
-    'bone-setting' => ['label' => 'Bone Setting', 'url' => 'bone-setting.php'],
-    'gallery' => ['label' => 'Gallery', 'url' => 'gallery.php'],
-    'about' => ['label' => 'About Us', 'url' => 'about-us.php'],
-    'contact' => ['label' => 'Contact Us', 'url' => 'contact.php'],
+    'home' => ['label' => 'Home', 'url' => './'],
+    'specialities' => ['label' => 'Specialities', 'url' => 'specialities'],
+    'bone-setting' => ['label' => 'Bone Setting', 'url' => 'bone-setting'],
+    'gallery' => ['label' => 'Gallery', 'url' => 'gallery'],
+    'about' => ['label' => 'About Us', 'url' => 'about-us'],
+    'contact' => ['label' => 'Contact Us', 'url' => 'contactus'],
 ];
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ $navItems = [
 <body>
 <header class="site-header">
     <div class="container nav-wrap">
-        <a class="brand" href="index.php"><span>Daliya</span> Ayurvedic</a>
+        <a class="brand" href="./"><span>Daliya</span> Ayurvedic</a>
         <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
             <span></span>
             <span></span>
@@ -37,7 +37,7 @@ $navItems = [
                 <a class="<?= $activePage === $key ? 'active' : ''; ?>" href="<?= $item['url']; ?>"><?= $item['label']; ?></a>
             <?php endforeach; ?>
         </nav>
-        <!-- <a class="nav-cta" href="contact.php">Appointment</a> -->
+        <!-- <a class="nav-cta" href="contactus">Appointment</a> -->
     </div>
 </header>
 <main>
