@@ -18,9 +18,9 @@ include __DIR__ . '/includes/header.php';
                     </figcaption>
                 </figure>
                 <figure class="carousel-slide">
-                    <img src="assets/images/mortar.jpeg" alt="Ayurvedic doctor consultation card with natural leaf motif">
+                    <img src="assets/images/steambath.png" alt="Ayurvedic herbs and mortar representing holistic natural care">
                     <figcaption>
-                        <span>Personalised guidance</span>
+                        <span>Holistic Ayurveda</span>
                         <strong>DALIYA AYURVEDIC AND BONE SETTING CENTRE</strong>
                     </figcaption>
                 </figure>
@@ -32,9 +32,9 @@ include __DIR__ . '/includes/header.php';
                     </figcaption>
                 </figure>
                 <figure class="carousel-slide">
-                    <img src="assets/images/steambath.png" alt="Ayurvedic herbs and mortar representing holistic natural care">
+                    <img src="assets/images/mortar.jpeg" alt="Ayurvedic doctor consultation card with natural leaf motif">
                     <figcaption>
-                        <span>Holistic Ayurveda</span>
+                        <span>Personalised guidance</span>
                         <strong>DALIYA AYURVEDIC AND BONE SETTING CENTRE</strong>
                     </figcaption>
                 </figure>

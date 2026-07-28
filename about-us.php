@@ -15,7 +15,7 @@ include __DIR__ . '/includes/header.php';
     <div class="container about-story-grid">
         <article class="info-card about-story-card">
             <span class="eyebrow">Our story</span>
-            <h2>The Story Behind the Name "DALIYA"</h2>
+            <h2 style="margin-bottom: 35px;">The Story Behind the Name "DALIYA"</h2>
 
             <p><strong>DALIYA</strong> is more than just the name of our Ayurvedic & Bone Setting Centre—it represents beauty, strength, care, and renewal.</p>
 
@@ -30,10 +30,21 @@ include __DIR__ . '/includes/header.php';
 
         <aside class="info-card owner-video-card">
             <span class="eyebrow">Owner's message</span>
-            <h2>Watch our story</h2>
-            <div class="video-embed" aria-label="Owner message video">
+            <h2>Why Trust Us</h2>
+            <!-- <div class="video-embed" aria-label="Owner message video">
                 <iframe src="https://www.youtube.com/embed/JuTaQ5A1F8o?si=xhwmvRm3VPMJ858O" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div> -->
+
+            <div class="video-embed" aria-label="Why Trust Us video">
+                <iframe
+                    src="https://www.youtube.com/embed/_-SRsettFoA"
+                    title="Owner Message"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
             </div>
+
         </aside>
     </div>
 </section>

@@ -22,7 +22,7 @@ include __DIR__ . '/includes/header.php';
 
         <div class="profile-card doctor-card">
             <div class="avatar">
-                <img src="assets\bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
+                <img src="assets\images\bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
             </div>
             <h2>Hanshi Ajayakumar Nair</h2>
             <p><strong>Traditional bone setter</strong></p>
@@ -43,7 +43,7 @@ include __DIR__ . '/includes/header.php';
         <div class="card-grid three">
             <article class="info-card">
                 <h3>Mobility support</h3>
-                <p>Helps selected patients improve movement comfort with manual care and guided rehabilitation.</p>
+                <p>Helps patients improve movement comfort with manual care and guided rehabilitation.</p>
             </article>
             <article class="info-card">
                 <h3>Natural pain relief</h3>

@@ -98,11 +98,12 @@ $specialities = [
             </article>
             
             <article class="team-card">
-                <div class="team-avatar placeholder-avatar" aria-hidden="true">MP</div>
-
-                <h3></h3>
+                <div class="team-avatar placeholder-avatar" aria-hidden="true">
+                    <img src="assets/images/renjith.png" alt="Male Physiotherapist">
+                </div>
+                <h3>Renjith R</h3>
                 <h5>Male Physiotherapist</h5>
-                <p>{name} specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence based physiotherapy.</p>
+                <p>Renjith R specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence based physiotherapy.</p>
             </article>
         </div>
     </div>

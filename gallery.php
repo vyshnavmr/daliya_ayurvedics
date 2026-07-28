@@ -60,7 +60,7 @@ $galleryImages = array_values(array_filter(array_map(function (array $item): ?ar
 <section class="page-hero"><div class="container">
     <span class="eyebrow">Gallery</span>
     <h1>A glimpse of our clinic and care spaces.</h1>
-    <p>Explore photos from Daliya Ayurvedics, including our clinic front, reception, therapy spaces and treatment posters.</p>
+    <p>Explore photos from Daliya Ayurvedics, including our clinic, reception, therapy spaces and treatment details.</p>
     </div>
 </section>
 <section class="gallery-section" aria-label="Clinic photo gallery">
