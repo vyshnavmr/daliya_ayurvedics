@@ -22,7 +22,7 @@ include __DIR__ . '/includes/header.php';
 
         <div class="profile-card doctor-card">
             <div class="avatar">
-                <img src="assets\images\bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
+                <img src="assets/images/bonesetter.jpg" alt="Hanshi Ajayakumar Nair">
             </div>
             <h2>Hanshi Ajayakumar Nair</h2>
             <p><strong>Traditional Bone Setter</strong></p>
