@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Gallery | Daliya Ayurvedics';
+$pageTitle = 'Gallery | Daliya Ayurvedic | Bone setting';
 $activePage = 'gallery';
 include __DIR__ . '/includes/header.php';
 
@@ -28,17 +28,17 @@ $items = [
 
 $videos = [
     [
-        'title' => 'Daliya Ayurvedics video 1',
+        'title' => 'Daliya Ayurvedic video 1',
         'url' => 'https://youtube.com/shorts/AdGnft_3OEc?si=SFD32eHvoZDbdjyu',
         'thumbnail' => 'https://img.youtube.com/vi/AdGnft_3OEc/hqdefault.jpg',
     ],
     [
-        'title' => 'Daliya Ayurvedics video 2',
+        'title' => 'Daliya Ayurvedic video 2',
         'url' => 'https://youtube.com/shorts/_-SRsettFoA?si=TI-mCOuZW2CW8MG4',
         'thumbnail' => 'https://img.youtube.com/vi/_-SRsettFoA/hqdefault.jpg',
     ],
     [
-        'title' => 'Daliya Ayurvedics Solution For BackPain',
+        'title' => 'Daliya Ayurvedic Solution For BackPain',
         'url' => 'https://youtube.com/shorts/ueNMdreiK-0?si=UJBUuXKD1uJT8Hbc',
         'thumbnail' => 'https://i.ytimg.com/vi/ueNMdreiK-0/maxresdefault.jpg?utm_source=chatgpt.com',
     ],
@@ -60,7 +60,7 @@ $galleryImages = array_values(array_filter(array_map(function (array $item): ?ar
 <section class="page-hero"><div class="container">
     <span class="eyebrow">Gallery</span>
     <h1>A glimpse of our clinic and care spaces.</h1>
-    <p>Explore photos from Daliya Ayurvedics, including our clinic, reception, therapy spaces and treatment details.</p>
+    <p>Explore photos from Daliya Ayurvedic and Bone Setting Centre, including our clinic, reception, therapy spaces and treatment details.</p>
     </div>
 </section>
 <section class="gallery-section" aria-label="Clinic photo gallery">
@@ -70,7 +70,7 @@ $galleryImages = array_values(array_filter(array_map(function (array $item): ?ar
             <?php if ($imagePath): ?>
                 <?php $imageIndex = array_search($imagePath, array_column($galleryImages, 'path'), true); ?>
                 <button class="gallery-card gallery-photo-card" type="button" data-gallery-index="<?= $imageIndex; ?>" aria-label="Open <?= htmlspecialchars($item['title']); ?> image">
-                    <img class="gallery-image" src="<?= htmlspecialchars($imagePath); ?>" alt="<?= htmlspecialchars($item['title']); ?> at Daliya Ayurvedics">
+                    <img class="gallery-image" src="<?= htmlspecialchars($imagePath); ?>" alt="<?= htmlspecialchars($item['title']); ?> at Daliya Ayurvedic">
                 </button>
             <?php else: ?>
                 <div class="gallery-card gallery-photo-card image-placeholder"><?= htmlspecialchars($item['title']); ?></div>
@@ -94,7 +94,7 @@ $galleryImages = array_values(array_filter(array_map(function (array $item): ?ar
         <button class="gallery-lightbox-close" type="button" aria-label="Close gallery">&times;</button>
         <button class="gallery-lightbox-arrow gallery-lightbox-prev" type="button" aria-label="Previous image">&#10094;</button>
         <div class="gallery-lightbox-content">
-            <img class="gallery-lightbox-image" src="<?= htmlspecialchars($galleryImages[0]['path']); ?>" alt="<?= htmlspecialchars($galleryImages[0]['title']); ?> at Daliya Ayurvedics">
+            <img class="gallery-lightbox-image" src="<?= htmlspecialchars($galleryImages[0]['path']); ?>" alt="<?= htmlspecialchars($galleryImages[0]['title']); ?> at Daliya Ayurvedic">
             <p class="gallery-lightbox-count">1 of <?= count($galleryImages); ?></p>
         </div>
         <button class="gallery-lightbox-arrow gallery-lightbox-next" type="button" aria-label="Next image">&#10095;</button>
@@ -113,7 +113,7 @@ $galleryImages = array_values(array_filter(array_map(function (array $item): ?ar
         activeImageIndex = (index + galleryImages.length) % galleryImages.length;
         const image = galleryImages[activeImageIndex];
         lightboxImage.src = image.path;
-        lightboxImage.alt = `${image.title} at Daliya Ayurvedics`;
+        lightboxImage.alt = `${image.title} at Daliya Ayurvedic`;
         lightboxCount.textContent = `${activeImageIndex + 1} of ${galleryImages.length}`;
     }
 
