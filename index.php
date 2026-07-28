@@ -65,7 +65,7 @@ include __DIR__ . '/includes/header.php';
     <div class="container hero-grid">
         <div class="hero-copy">
             <span class="eyebrow">Traditional care • Modern comfort</span>
-            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and therapy.</h1>
+            <h1>Daliya Ayurvedic and Bone Setting Centre</h1>
             <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
             <div class="hero-actions">
                 <a class="btn btn-primary" href="contact.php">Book an appointment</a>
@@ -109,12 +109,12 @@ include __DIR__ . '/includes/header.php';
     <div class="container">
         <div class="section-heading">
             <span class="eyebrow">Why choose us</span>
-            <h2>Patient-first Ayurvedic care for every stage of recovery.</h2>
+            <h2>Patient first Ayurvedic care for every stage of recovery.</h2>
         </div>
         <div class="card-grid four">
             <article class="info-card"><h3>Experienced team</h3><p>Our clinic combines traditional bone setting knowledge, therapy support and certified Ayurvedic medical guidance.</p></article>
-            <article class="info-card"><h3>Clear explanations</h3><p>Patients and families receive simple details about conditions, treatment choices, expected care and follow-up needs.</p></article>
-            <article class="info-card"><h3>Natural approach</h3><p>We focus on gentle therapies, Ayurvedic formulations, lifestyle advice and rehabilitation to support long-term wellbeing.</p></article>
+            <article class="info-card"><h3>Clear explanations</h3><p>Patients and families receive simple details about conditions, treatment choices, expected care and follow up needs.</p></article>
+            <article class="info-card"><h3>Natural approach</h3><p>We focus on gentle therapies, Ayurvedic formulations, lifestyle advice and rehabilitation to support long term wellbeing.</p></article>
             <article class="info-card"><h3>Comfortable visits</h3><p>Separate staff support, appointment guidance and friendly communication make every visit easier for all age groups.</p></article>
         </div>
     </div>
@@ -125,7 +125,7 @@ include __DIR__ . '/includes/header.php';
         <div>
             <span class="eyebrow">Why bone setting therapy</span>
             <h2>A traditional method focused on alignment, mobility and pain relief.</h2>
-            <p>Bone setting therapy is a traditional manual practice used to support musculoskeletal concerns such as sprains, joint stiffness, minor dislocations, posture-related discomfort and movement limitations. At Daliya Ayurvedics, bone setting is offered with careful assessment and clear guidance.</p>
+            <p>Bone setting therapy is a traditional manual practice used to support musculoskeletal concerns such as sprains, joint stiffness, minor dislocations, posture related discomfort and movement limitations. At Daliya Ayurvedics, bone setting is offered with careful assessment and clear guidance.</p>
         </div>
         <div class="highlight-box">
             <h3>Good for supportive care in</h3>

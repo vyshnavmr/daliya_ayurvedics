@@ -2,7 +2,7 @@
 <footer class="site-footer">
     <div class="container footer-grid">
         <div>
-            <h2>Daliya Ayurvedics</h2>
+            <h2>Daliya Ayurvedic and Bone Setting Centre</h2>
             <p>Traditional Ayurvedic clinic providing bone setting, therapy and wellness care with patient-friendly guidance.</p>
         </div>
         <div>
@@ -11,7 +11,7 @@
         </div>
         <div>
             <h3>Contact</h3>
-            <p>Phone: +91 89210 65523, <br>+91 92924 11503<br>Email: regmikasunil@gmail.com</p>
+            <p>Phone: +91 89210 65523, <br>+91 92924 11503<br>Email: regmikasunilkumar@gmail.com</p>
             <p>Address: Daliya Ayurvedic and Bone Setting Centre, Elampaloor, Kollam, Kerala, India.</p>
             <p><a class="btn btn-primary direction-btn" href="https://maps.app.goo.gl/VUqrLboqNCWj5bNU7" target="_blank" rel="noopener">Get direction</a></p>
         </div>

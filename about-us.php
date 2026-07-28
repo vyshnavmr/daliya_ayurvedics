@@ -17,13 +17,13 @@ include __DIR__ . '/includes/header.php';
             <span class="eyebrow">Our story</span>
             <h2 style="margin-bottom: 35px;">The Story Behind the Name "DALIYA"</h2>
 
-            <p><strong>DALIYA</strong> is more than just the name of our Ayurvedic & Bone Setting Centre—it represents beauty, strength, care, and renewal.</p>
+            <p><strong>DALIYA</strong> is more than just the name of our Ayurvedic & Bone Setting Centre, it represents beauty, strength, care, and renewal.</p>
 
             <p>The name was inspired by the <strong>Dahlia flower</strong>, a flower admired around the world for its vibrant beauty, resilience, and ability to bloom gracefully in different seasons. Just as the Dahlia symbolizes inner strength, dignity, and positive transformation, our mission is to help every patient regain strength, mobility, and confidence through natural healing.</p>
 
             <p>The name also holds a special place in our hearts because <strong>"Daliya" is the name of our home</strong>, making it deeply personal and meaningful. When we envisioned establishing a healing centre rooted in compassion and traditional Ayurvedic wisdom, we felt there could be no better name than one that already represented warmth, care, and belonging in our own lives.</p>
 
-            <p>At <strong>DALIYA Ayurvedic & Bone Setting Centre</strong>, we believe that healing is not merely about treating pain—it is about restoring balance, rebuilding confidence, and improving the quality of life. Every patient who walks through our doors is treated with the same care, respect, and dedication that we would extend to our own family.</p>
+            <p>At <strong>DALIYA Ayurvedic & Bone Setting Centre</strong>, we believe that healing is not merely about treating pain, it is about restoring balance, rebuilding confidence, and improving the quality of life. Every patient who walks through our doors is treated with the same care, respect, and dedication that we would extend to our own family.</p>
 
             <p>The name <strong>DALIYA</strong> reflects our promise: to offer natural healing with compassion, tradition, and excellence, helping every individual bloom into a healthier and happier life.</p>
         </article>

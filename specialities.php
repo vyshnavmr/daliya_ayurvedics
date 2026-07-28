@@ -8,7 +8,7 @@ $specialities = [
     ['title' => 'therapy support', 'text' => 'Male and female therapy assistance for strengthening, mobility, posture and rehabilitation routines.'],
     ['title' => 'Pain management', 'text' => 'Holistic plans for back pain, neck pain, knee pain, shoulder stiffness and recurring muscular discomfort.'],
     ['title' => 'Lifestyle disorders', 'text' => 'Ayurvedic diet and routine guidance for digestion, stress, sleep and general health improvement.'],
-    ['title' => 'Preventive wellness', 'text' => 'Seasonal care, immunity support and daily habit correction to maintain long-term wellbeing.'],
+    ['title' => 'Preventive wellness', 'text' => 'Seasonal care, immunity support and daily habit correction to maintain long term wellbeing.'],
 ];
 ?>
 <section class="page-hero">
@@ -76,7 +76,7 @@ $specialities = [
 
                 <h3>Hanshi Ajayakumar Nair</h3>
                 <h5>Traditional Bone Setter</h5>
-                <p>Hanshi Ajayakumar Nair is an experienced traditional bone setter and complementary medicine practitioner specializing in the diagnosis and treatment of musculoskeletal injuries, particularly fractures, joint dislocations, ligament injuries, and spinal disorders.</p>
+                <p>Hanshi Ajayakumar Nair is an experienced traditional bone setter specializing in Ayurvedic musculoskeletal care, with expertise in the diagnosis and treatment of fractures, joint dislocations, ligament injuries, and spinal disorders through traditional Ayurvedic healing practices.</p>
             </article>
 
             <article class="team-card">
