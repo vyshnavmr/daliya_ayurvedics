@@ -5,7 +5,7 @@ include __DIR__ . '/includes/header.php';
 $specialities = [
     ['title' => 'Ayurvedic consultation', 'text' => 'Personalised assessment, wellness guidance and Ayurvedic medicine plans from a certified Ayurvedic doctor.'],
     ['title' => 'Traditional bone setting', 'text' => 'Manual support for selected joint, muscle and mobility concerns with careful patient counselling.'],
-    ['title' => 'Physiotherapy support', 'text' => 'Male and female physiotherapy assistance for strengthening, mobility, posture and rehabilitation routines.'],
+    ['title' => 'therapy support', 'text' => 'Male and female therapy assistance for strengthening, mobility, posture and rehabilitation routines.'],
     ['title' => 'Pain management', 'text' => 'Holistic plans for back pain, neck pain, knee pain, shoulder stiffness and recurring muscular discomfort.'],
     ['title' => 'Lifestyle disorders', 'text' => 'Ayurvedic diet and routine guidance for digestion, stress, sleep and general health improvement.'],
     ['title' => 'Preventive wellness', 'text' => 'Seasonal care, immunity support and daily habit correction to maintain long-term wellbeing.'],
@@ -15,7 +15,7 @@ $specialities = [
     <div class="container">
         <span class="eyebrow">Our specialities</span>
         <h1>Treatments and services available at Daliya Ayurvedics.</h1>
-        <p>Our clinic blends Ayurvedic principles, traditional bone setting and physiotherapy support to provide complete musculoskeletal and wellness care.</p>
+        <p>Our clinic blends Ayurvedic principles, traditional bone setting and therapy support to provide complete musculoskeletal and wellness care.</p>
     </div>
 </section>
 <section class="section-pad">
@@ -103,7 +103,7 @@ $specialities = [
                 </div>
                 <h3>Renjith R</h3>
                 <h5>Male Physiotherapist</h5>
-                <p>Renjith R specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence based physiotherapy.</p>
+                <p>Renjith R specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence based therapy.</p>
             </article>
         </div>
     </div>

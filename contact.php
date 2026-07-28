@@ -26,7 +26,7 @@ include __DIR__ . '/includes/header.php';
             <label>Treatment interest
                 <select name="interest">
                     <option>Ayurvedic consultation</option>
-                    <option>Bone setting</option><option>Physiotherapy</option>
+                    <option>Bone setting</option><option>Ayurvedic therapy</option>
                     <option>General enquiry</option>
                 </select>
             </label>

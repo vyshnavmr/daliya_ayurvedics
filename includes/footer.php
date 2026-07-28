@@ -3,7 +3,7 @@
     <div class="container footer-grid">
         <div>
             <h2>Daliya Ayurvedics</h2>
-            <p>Traditional Ayurvedic clinic providing bone setting, physiotherapy and wellness care with patient-friendly guidance.</p>
+            <p>Traditional Ayurvedic clinic providing bone setting, therapy and wellness care with patient-friendly guidance.</p>
         </div>
         <div>
             <h3>Clinic Hours</h3>

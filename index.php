@@ -25,7 +25,7 @@ include __DIR__ . '/includes/header.php';
                     </figcaption>
                 </figure>
                 <figure class="carousel-slide">
-                    <img src="assets/images/massage.jpg" alt="Physiotherapy care illustration for mobility and recovery">
+                    <img src="assets/images/massage.jpg" alt="therapy care illustration for mobility and recovery">
                     <figcaption>
                         <span>Recovery support</span>
                         <strong>DALIYA AYURVEDIC AND BONE SETTING CENTRE</strong>
@@ -65,7 +65,7 @@ include __DIR__ . '/includes/header.php';
     <div class="container hero-grid">
         <div class="hero-copy">
             <span class="eyebrow">Traditional care • Modern comfort</span>
-            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and physiotherapy.</h1>
+            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and therapy.</h1>
             <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
             <div class="hero-actions">
                 <a class="btn btn-primary" href="contact.php">Book an appointment</a>
@@ -76,7 +76,7 @@ include __DIR__ . '/includes/header.php';
             <h2>Complete clinic support</h2>
             <ul>
                 <li>Bone setting by Hanshi Ajayakumar Nair</li>
-                <li>Male and female physiotherapy assistance</li>
+                <li>Male and female therapy assistance</li>
                 <li>Certified Ayurvedic doctor consultation</li>
                 <li>Personalised wellness and recovery plans</li>
             </ul>
@@ -112,7 +112,7 @@ include __DIR__ . '/includes/header.php';
             <h2>Patient-first Ayurvedic care for every stage of recovery.</h2>
         </div>
         <div class="card-grid four">
-            <article class="info-card"><h3>Experienced team</h3><p>Our clinic combines traditional bone setting knowledge, physiotherapy support and certified Ayurvedic medical guidance.</p></article>
+            <article class="info-card"><h3>Experienced team</h3><p>Our clinic combines traditional bone setting knowledge, therapy support and certified Ayurvedic medical guidance.</p></article>
             <article class="info-card"><h3>Clear explanations</h3><p>Patients and families receive simple details about conditions, treatment choices, expected care and follow-up needs.</p></article>
             <article class="info-card"><h3>Natural approach</h3><p>We focus on gentle therapies, Ayurvedic formulations, lifestyle advice and rehabilitation to support long-term wellbeing.</p></article>
             <article class="info-card"><h3>Comfortable visits</h3><p>Separate staff support, appointment guidance and friendly communication make every visit easier for all age groups.</p></article>
@@ -133,7 +133,7 @@ include __DIR__ . '/includes/header.php';
                 <li>Joint and muscle pain management</li>
                 <li>Sprains and strain recovery support</li>
                 <li>Posture and movement correction guidance</li>
-                <li>Rehabilitation along with physiotherapy</li>
+                <li>Rehabilitation along with therapy</li>
             </ul>
         </div>
     </div>
