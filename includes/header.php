@@ -1,6 +1,6 @@
 <?php
 $activePage = $activePage ?? '';
-$pageTitle = $pageTitle ?? 'Daliya Ayurvedics';
+$pageTitle = $pageTitle ?? 'Daliya Ayurvedic';
 $navItems = [
     'home' => ['label' => 'Home', 'url' => './'],
     'specialities' => ['label' => 'Specialities', 'url' => 'specialities'],
