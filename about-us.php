@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'About Us | Daliya Ayurvedics';
+$pageTitle = 'About Us | Daliya Ayurvedic | Bone setting';
 $activePage = 'about';
 include __DIR__ . '/includes/header.php';
 ?>

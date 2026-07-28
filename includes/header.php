@@ -1,6 +1,6 @@
 <?php
 $activePage = $activePage ?? '';
-$pageTitle = $pageTitle ?? 'Daliya Ayurvedics';
+$pageTitle = $pageTitle ?? 'Daliya Ayurvedic | Bone Setting';
 $navItems = [
     'home' => ['label' => 'Home', 'url' => 'index.php'],
     'specialities' => ['label' => 'Specialities', 'url' => 'specialities.php'],
@@ -15,7 +15,7 @@ $navItems = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Daliya Ayurvedics Clinic offers Ayurvedic consultation, traditional bone setting, therapy and holistic wellness care.">
+    <meta name="description" content="Daliya Ayurvedic and Bone Setting Centre offers Ayurvedic consultation, traditional bone setting, therapy and holistic wellness care.">
     <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

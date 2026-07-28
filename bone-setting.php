@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Bone Setting | Daliya Ayurvedics';
+$pageTitle = 'Bone Setting | Daliya Ayurvedic | Bone setting';
 $activePage = 'bone-setting';
 include __DIR__ . '/includes/header.php';
 ?>
@@ -17,7 +17,7 @@ include __DIR__ . '/includes/header.php';
             <h2>About bone setting</h2>
             <p>At Daliya Ayurvedic & Bone Setting Centre, we provide specialized Ayurvedic and Bone Setting treatments for a wide range of musculoskeletal and joint-related conditions. Our treatments are designed to help manage chronic back pain, disc bulge, slipped disc, neck pain, knee pain, shoulder pain, joint pain, heel pain, sciatica, varicose veins, arthritis, muscle stiffness, sports injuries, fractures, sprains, and mobility-related problems. With a holistic approach that combines traditional Ayurvedic therapies and expert bone setting techniques, we focus on relieving pain, restoring movement, and improving your overall quality of life—naturally and safely.</p>
 
-            <!-- <p>At Daliya Ayurvedics, patient safety and clarity are important. Severe injuries, fractures, heavy swelling, open wounds or emergency symptoms should be evaluated by emergency medical services or an orthopaedic specialist immediately.</p> -->
+            <!-- <p>At Daliya Ayurvedic and Bone Setting Centre, patient safety and clarity are important. Severe injuries, fractures, heavy swelling, open wounds or emergency symptoms should be evaluated by emergency medical services or an orthopaedic specialist immediately.</p> -->
         </div>
 
         <div class="profile-card doctor-card">

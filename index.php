@@ -1,12 +1,12 @@
 <?php
-$pageTitle = 'Daliya Ayurvedics | Traditional Ayurvedic Clinic';
+$pageTitle = 'Daliya Ayurvedic | Traditional Ayurvedic Clinic | Bone Centre';
 $activePage = 'home';
 include __DIR__ . '/includes/header.php';
 ?>
 
 
 <section class="carousel-section" aria-labelledby="home-carousel-title">
-    <div class="home-carousel" data-carousel aria-label="Daliya Ayurvedics care highlights">
+    <div class="home-carousel" data-carousel aria-label="Daliya Ayurvedic care highlights">
         <button class="carousel-arrow carousel-arrow-left" type="button" data-carousel-prev aria-label="Show previous carousel image">‹</button>
         <div class="carousel-viewport">
             <div class="carousel-track" data-carousel-track>
@@ -125,7 +125,7 @@ include __DIR__ . '/includes/header.php';
         <div>
             <span class="eyebrow">Why bone setting therapy</span>
             <h2>A traditional method focused on alignment, mobility and pain relief.</h2>
-            <p>Bone setting therapy is a traditional manual practice used to support musculoskeletal concerns such as sprains, joint stiffness, minor dislocations, posture related discomfort and movement limitations. At Daliya Ayurvedics, bone setting is offered with careful assessment and clear guidance.</p>
+            <p>Bone setting therapy is a traditional manual practice used to support musculoskeletal concerns such as sprains, joint stiffness, minor dislocations, posture related discomfort and movement limitations. At Daliya Ayurvedic and Bone Setting Centre, bone setting is offered with careful assessment and clear guidance.</p>
         </div>
         <div class="highlight-box">
             <h3>Good for supportive care in</h3>
@@ -142,7 +142,7 @@ include __DIR__ . '/includes/header.php';
 <section class="section-pad">
     <div class="container split-grid reverse">
         <div class="highlight-box leaf">
-            <h3>Uses of Ayurvedics</h3>
+            <h3>Uses of Ayurvedic Medicine</h3>
             <p>Ayurveda supports preventive health, digestion, stress balance, pain management, immunity, skin care, women’s wellness and lifestyle correction through personalised plans.</p>
         </div>
         <div>

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Contact Us | Daliya Ayurvedics';
+$pageTitle = 'Contact Us | Daliya Ayurvedic | Bone setting';
 $activePage = 'contact';
 include __DIR__ . '/includes/header.php';
 ?>
@@ -42,7 +42,7 @@ document.querySelector('.whatsapp-enquiry-form').addEventListener('submit', func
 
     const form = event.currentTarget;
     const message = [
-        'New enquiry from Daliya Ayurvedics website',
+        'New enquiry from Daliya Ayurvedic website',
         '',
         `Name: ${form.elements.name.value.trim()}`,
         `Phone: ${form.elements.phone.value.trim()}`,

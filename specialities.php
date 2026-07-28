@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Specialities | Daliya Ayurvedics';
+$pageTitle = 'Specialities | Daliya Ayurvedic | Bone Setting';
 $activePage = 'specialities';
 include __DIR__ . '/includes/header.php';
 $specialities = [
@@ -14,7 +14,7 @@ $specialities = [
 <section class="page-hero">
     <div class="container">
         <span class="eyebrow">Our specialities</span>
-        <h1>Treatments and services available at Daliya Ayurvedics.</h1>
+        <h1>Treatments and services available at Daliya Ayurvedic and Bone Setting Centre.</h1>
         <p>Our clinic blends Ayurvedic principles, traditional bone setting and therapy support to provide complete musculoskeletal and wellness care.</p>
     </div>
 </section>
