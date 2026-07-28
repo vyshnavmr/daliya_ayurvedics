@@ -26,7 +26,13 @@ $navItems = [
 <header class="site-header">
     <div class="container nav-wrap">
         <a class="brand" href="index.php"><span>Daliya</span> Ayurvedic</a>
-        <nav class="main-nav" aria-label="Primary navigation">
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="primary-navigation" class="main-nav" aria-label="Primary navigation">
+            <button class="mobile-menu-close" type="button" aria-label="Close navigation menu">&times;</button>
             <?php foreach ($navItems as $key => $item): ?>
                 <a class="<?= $activePage === $key ? 'active' : ''; ?>" href="<?= $item['url']; ?>"><?= $item['label']; ?></a>
             <?php endforeach; ?>
