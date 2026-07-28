@@ -1,0 +1,23 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Redirect old PHP URLs to clean, extensionless page URLs.
+RewriteCond %{THE_REQUEST} \s/+contact(?:-us)?\.php[\s?] [NC]
+RewriteRule ^contact(?:-us)?\.php$ contactus [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^index\.php$ ./ [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^(.+?)\.php$ $1 [R=301,L]
+
+# Serve clean URLs from their matching PHP files.
+RewriteRule ^$ index.php [L]
+RewriteRule ^home/?$ index.php [L]
+RewriteRule ^specialities/?$ specialities.php [L]
+RewriteRule ^bone-setting/?$ bone-setting.php [L]
+RewriteRule ^gallery/?$ gallery.php [L]
+RewriteRule ^about-us/?$ about-us.php [L]
+RewriteRule ^contactus/?$ contact.php [L]
+RewriteRule ^contact/?$ contact.php [L]
