@@ -1,12 +1,12 @@
 <?php
-$pageTitle = 'Daliya Ayurvedics | Traditional Ayurvedic Clinic';
+$pageTitle = 'Daliya Ayurvedic | Traditional Ayurvedic Clinic | Bone Centre';
 $activePage = 'home';
 include __DIR__ . '/includes/header.php';
 ?>
 
 
 <section class="carousel-section" aria-labelledby="home-carousel-title">
-    <div class="home-carousel" data-carousel aria-label="Daliya Ayurvedics care highlights">
+    <div class="home-carousel" data-carousel aria-label="Daliya Ayurvedic care highlights">
         <button class="carousel-arrow carousel-arrow-left" type="button" data-carousel-prev aria-label="Show previous carousel image">‹</button>
         <div class="carousel-viewport">
             <div class="carousel-track" data-carousel-track>
@@ -25,7 +25,7 @@ include __DIR__ . '/includes/header.php';
                     </figcaption>
                 </figure>
                 <figure class="carousel-slide">
-                    <img src="assets/images/massage.jpg" alt="Physiotherapy care illustration for mobility and recovery">
+                    <img src="assets/images/massage.jpg" alt="therapy care illustration for mobility and recovery">
                     <figcaption>
                         <span>Recovery support</span>
                         <strong>DALIYA AYURVEDIC AND BONE SETTING CENTRE</strong>
@@ -65,7 +65,7 @@ include __DIR__ . '/includes/header.php';
     <div class="container hero-grid">
         <div class="hero-copy">
             <span class="eyebrow">Traditional care • Modern comfort</span>
-            <h1>Daliya Ayurvedics Clinic for holistic healing, bone setting and physiotherapy.</h1>
+            <h1>Daliya Ayurvedic and Bone Setting Centre</h1>
             <p>We help families understand every treatment option clearly with trusted Ayurvedic care, experienced bone setting support and rehabilitation guidance under one roof.</p>
             <div class="hero-actions">
                 <a class="btn btn-primary" href="contactus">Book an appointment</a>
@@ -76,7 +76,7 @@ include __DIR__ . '/includes/header.php';
             <h2>Complete clinic support</h2>
             <ul>
                 <li>Bone setting by Hanshi Ajayakumar Nair</li>
-                <li>Male and female physiotherapy assistance</li>
+                <li>Male and female therapy assistance</li>
                 <li>Certified Ayurvedic doctor consultation</li>
                 <li>Personalised wellness and recovery plans</li>
             </ul>
@@ -109,12 +109,12 @@ include __DIR__ . '/includes/header.php';
     <div class="container">
         <div class="section-heading">
             <span class="eyebrow">Why choose us</span>
-            <h2>Patient-first Ayurvedic care for every stage of recovery.</h2>
+            <h2>Patient first Ayurvedic care for every stage of recovery.</h2>
         </div>
         <div class="card-grid four">
-            <article class="info-card"><h3>Experienced team</h3><p>Our clinic combines traditional bone setting knowledge, physiotherapy support and certified Ayurvedic medical guidance.</p></article>
-            <article class="info-card"><h3>Clear explanations</h3><p>Patients and families receive simple details about conditions, treatment choices, expected care and follow-up needs.</p></article>
-            <article class="info-card"><h3>Natural approach</h3><p>We focus on gentle therapies, Ayurvedic formulations, lifestyle advice and rehabilitation to support long-term wellbeing.</p></article>
+            <article class="info-card"><h3>Experienced team</h3><p>Our clinic combines traditional bone setting knowledge, therapy support and certified Ayurvedic medical guidance.</p></article>
+            <article class="info-card"><h3>Clear explanations</h3><p>Patients and families receive simple details about conditions, treatment choices, expected care and follow up needs.</p></article>
+            <article class="info-card"><h3>Natural approach</h3><p>We focus on gentle therapies, Ayurvedic formulations, lifestyle advice and rehabilitation to support long term wellbeing.</p></article>
             <article class="info-card"><h3>Comfortable visits</h3><p>Separate staff support, appointment guidance and friendly communication make every visit easier for all age groups.</p></article>
         </div>
     </div>
@@ -125,7 +125,7 @@ include __DIR__ . '/includes/header.php';
         <div>
             <span class="eyebrow">Why bone setting therapy</span>
             <h2>A traditional method focused on alignment, mobility and pain relief.</h2>
-            <p>Bone setting therapy is a traditional manual practice used to support musculoskeletal concerns such as sprains, joint stiffness, minor dislocations, posture-related discomfort and movement limitations. At Daliya Ayurvedics, bone setting is offered with careful assessment and clear guidance.</p>
+            <p>Bone setting therapy is a traditional manual practice used to support musculoskeletal concerns such as sprains, joint stiffness, minor dislocations, posture related discomfort and movement limitations. At Daliya Ayurvedic and Bone Setting Centre, bone setting is offered with careful assessment and clear guidance.</p>
         </div>
         <div class="highlight-box">
             <h3>Good for supportive care in</h3>
@@ -133,7 +133,7 @@ include __DIR__ . '/includes/header.php';
                 <li>Joint and muscle pain management</li>
                 <li>Sprains and strain recovery support</li>
                 <li>Posture and movement correction guidance</li>
-                <li>Rehabilitation along with physiotherapy</li>
+                <li>Rehabilitation along with therapy</li>
             </ul>
         </div>
     </div>
@@ -142,7 +142,7 @@ include __DIR__ . '/includes/header.php';
 <section class="section-pad">
     <div class="container split-grid reverse">
         <div class="highlight-box leaf">
-            <h3>Uses of Ayurvedics</h3>
+            <h3>Uses of Ayurvedic Medicine</h3>
             <p>Ayurveda supports preventive health, digestion, stress balance, pain management, immunity, skin care, women’s wellness and lifestyle correction through personalised plans.</p>
         </div>
         <div>

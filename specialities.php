@@ -1,21 +1,21 @@
 <?php
-$pageTitle = 'Specialities | Daliya Ayurvedics';
+$pageTitle = 'Specialities | Daliya Ayurvedic | Bone Setting';
 $activePage = 'specialities';
 include __DIR__ . '/includes/header.php';
 $specialities = [
     ['title' => 'Ayurvedic consultation', 'text' => 'Personalised assessment, wellness guidance and Ayurvedic medicine plans from a certified Ayurvedic doctor.'],
     ['title' => 'Traditional bone setting', 'text' => 'Manual support for selected joint, muscle and mobility concerns with careful patient counselling.'],
-    ['title' => 'Physiotherapy support', 'text' => 'Male and female physiotherapy assistance for strengthening, mobility, posture and rehabilitation routines.'],
+    ['title' => 'therapy support', 'text' => 'Male and female therapy assistance for strengthening, mobility, posture and rehabilitation routines.'],
     ['title' => 'Pain management', 'text' => 'Holistic plans for back pain, neck pain, knee pain, shoulder stiffness and recurring muscular discomfort.'],
     ['title' => 'Lifestyle disorders', 'text' => 'Ayurvedic diet and routine guidance for digestion, stress, sleep and general health improvement.'],
-    ['title' => 'Preventive wellness', 'text' => 'Seasonal care, immunity support and daily habit correction to maintain long-term wellbeing.'],
+    ['title' => 'Preventive wellness', 'text' => 'Seasonal care, immunity support and daily habit correction to maintain long term wellbeing.'],
 ];
 ?>
 <section class="page-hero">
     <div class="container">
         <span class="eyebrow">Our specialities</span>
-        <h1>Treatments and services available at Daliya Ayurvedics.</h1>
-        <p>Our clinic blends Ayurvedic principles, traditional bone setting and physiotherapy support to provide complete musculoskeletal and wellness care.</p>
+        <h1>Treatments and services available at Daliya Ayurvedic and Bone Setting Centre.</h1>
+        <p>Our clinic blends Ayurvedic principles, traditional bone setting and therapy support to provide complete musculoskeletal and wellness care.</p>
     </div>
 </section>
 <section class="section-pad">
@@ -76,7 +76,7 @@ $specialities = [
 
                 <h3>Hanshi Ajayakumar Nair</h3>
                 <h5>Traditional Bone Setter</h5>
-                <p>Hanshi Ajayakumar Nair is an experienced traditional bone setter and complementary medicine practitioner specializing in the diagnosis and treatment of musculoskeletal injuries, particularly fractures, joint dislocations, ligament injuries, and spinal disorders.</p>
+                <p>Hanshi Ajayakumar Nair is an experienced traditional bone setter specializing in Ayurvedic musculoskeletal care, with expertise in the diagnosis and treatment of fractures, joint dislocations, ligament injuries, and spinal disorders through traditional Ayurvedic healing practices.</p>
             </article>
 
             <article class="team-card">
@@ -103,7 +103,7 @@ $specialities = [
                 </div>
                 <h3>Renjith R</h3>
                 <h5>Male Physiotherapist</h5>
-                <p>Renjith R specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence based physiotherapy.</p>
+                <p>Renjith R specializes in rehabilitation, pain management, posture correction, and restoring physical function through evidence based therapy.</p>
             </article>
         </div>
     </div>

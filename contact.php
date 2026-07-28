@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Contact Us | Daliya Ayurvedics';
+$pageTitle = 'Contact Us | Daliya Ayurvedic | Bone setting';
 $activePage = 'contact';
 include __DIR__ . '/includes/header.php';
 ?>
@@ -15,7 +15,7 @@ include __DIR__ . '/includes/header.php';
         <div class="contact-card">
             <h2>Clinic details</h2>
             <p><strong>Phone:</strong> +91 89210 65523, +91 92924 11503</p>
-            <p><strong>Email:</strong> regmikasunil@gmail.com</p>
+            <p><strong>Email:</strong> regmikasunilkumar@gmail.com</p>
             <p><strong>Hours:</strong> Monday - Sunday, 9:00 AM - 6:00 PM</p>
             <p><strong>Address:</strong>Daliya Ayurvedic and Bone Setting Centre, Elampaloor, Kollam, Kerala, India.</p>
             <p><a class="btn btn-primary direction-btn" href="https://maps.app.goo.gl/8Cohe9Hz4xeiJ8Ro8" target="_blank" rel="noopener">Get direction</a></p>
@@ -26,7 +26,7 @@ include __DIR__ . '/includes/header.php';
             <label>Treatment interest
                 <select name="interest">
                     <option>Ayurvedic consultation</option>
-                    <option>Bone setting</option><option>Physiotherapy</option>
+                    <option>Bone setting</option><option>Ayurvedic therapy</option>
                     <option>General enquiry</option>
                 </select>
             </label>
@@ -42,7 +42,7 @@ document.querySelector('.whatsapp-enquiry-form').addEventListener('submit', func
 
     const form = event.currentTarget;
     const message = [
-        'New enquiry from Daliya Ayurvedics website',
+        'New enquiry from Daliya Ayurvedic website',
         '',
         `Name: ${form.elements.name.value.trim()}`,
         `Phone: ${form.elements.phone.value.trim()}`,
