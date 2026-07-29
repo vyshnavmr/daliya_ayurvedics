@@ -127,7 +127,7 @@ a {
 }
 
 .mobile-menu-close {
-  align-self: flex-end;
+  align-self: flex-start;
   border: 0;
   background: transparent;
   color: var(--text);
