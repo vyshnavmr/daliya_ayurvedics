@@ -11,6 +11,18 @@
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+@supports (overflow: clip) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+}
 body {
   margin: 0;
   font-family: Poppins, Arial, sans-serif;
@@ -216,7 +228,8 @@ a {
 }
 .home-carousel {
   position: relative;
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   height: calc(100vh - 90px);
   min-height: 0;
   overflow: hidden;
@@ -827,6 +840,17 @@ button.gallery-photo-card:focus-visible {
   opacity: 0.8;
 }
 @media (max-width: 900px) {
+  body {
+    padding-top: 83px;
+  }
+  .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+  }
   .mobile-menu-toggle,
   .mobile-menu-close {
     display: block;
@@ -835,10 +859,10 @@ button.gallery-photo-card:focus-visible {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 30;
+    z-index: 1001;
     display: flex;
-    width: 50vw;
-    min-width: 240px;
+    width: min(82vw, 360px);
+    min-width: 0;
     max-width: 360px;
     height: 100vh;
     padding: 30px 26px;
@@ -861,9 +885,6 @@ button.gallery-photo-card:focus-visible {
   .mobile-menu-open .main-nav {
     transform: translateX(0);
     visibility: visible;
-  }
-  body.mobile-menu-open {
-    overflow: hidden;
   }
   .hero-grid,
   .split-grid,
