@@ -840,6 +840,17 @@ button.gallery-photo-card:focus-visible {
   opacity: 0.8;
 }
 @media (max-width: 900px) {
+  body {
+    padding-top: 83px;
+  }
+  .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+  }
   .mobile-menu-toggle,
   .mobile-menu-close {
     display: block;
@@ -848,7 +859,7 @@ button.gallery-photo-card:focus-visible {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 30;
+    z-index: 1001;
     display: flex;
     width: min(82vw, 360px);
     min-width: 0;
@@ -874,9 +885,6 @@ button.gallery-photo-card:focus-visible {
   .mobile-menu-open .main-nav {
     transform: translateX(0);
     visibility: visible;
-  }
-  body.mobile-menu-open {
-    overflow: hidden;
   }
   .hero-grid,
   .split-grid,
